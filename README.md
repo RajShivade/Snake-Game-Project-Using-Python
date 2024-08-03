@@ -1,4 +1,4 @@
-# Snake Game Project Using Python:-
+# Snake Game Project Using Python 🐍 :-
 A classic Snake Game implemented using Python and the turtle graphics library.
 
 # Overview:
@@ -240,3 +240,4 @@ The Snake Game implemented using Python and the turtle graphics library provides
 ![output1](https://github.com/user-attachments/assets/e3cf7f29-877b-490e-837d-6709a85920eb)
 
 # Output2: 
+![output2](https://github.com/user-attachments/assets/27b8e7c6-b83f-47f0-8f71-11bf785a064c)
