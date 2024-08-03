@@ -1,16 +1,8 @@
 # Snake Game Project Using Python:-
 A classic Snake Game implemented using Python and the turtle graphics library.
 
-# Table of Contents
-Overview
-Project Structure
-Installation
-Usage
-Game Controls
-How It Works
-
 # Overview:
-The Snake Game is a classic arcade game where the player controls a snake that moves around the screen, consuming food to grow longer. The game ends if the snake collides with itself or the screen boundaries. This documentation explains the implementation of the Snake Game using Python and the turtle graphics library. The code consists of four main components: main.py, snake.py, food.py, and scoreboard.py.
+The Snake Game is a classic arcade game where the player controls a snake that moves around the screen, consuming food to grow longer. The game ends if the snake collides with itself or the screen boundaries. This explains the implementation of the Snake Game using Python and the turtle graphics library. The code consists of four main components: main.py, snake.py, food.py, and scoreboard.py.
 
 # Project Structure:
 
@@ -35,19 +27,19 @@ from food import Food
 from scoreboard import Scoreboard
 import time
 
-   # Set up the screen
+   #Set up the screen
 screen = Screen()
 screen.setup(width=600, height=600)
 screen.bgcolor("black")
 screen.title("My Snake Game")
 screen.tracer(0)
 
-   # Initialize game objects
+   #Initialize game objects
 snake = Snake()
 food = Food()
 scoreboard = Scoreboard()
 
-   # Control the snake
+   #Control the snake
 screen.listen()
 screen.onkey(snake.up, "Up")
 screen.onkey(snake.down, "Down")
