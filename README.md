@@ -237,5 +237,6 @@ The game loop ends when the game_is_on flag is set to False, and the game waits 
 # Conclusion: 
 The Snake Game implemented using Python and the turtle graphics library provides a simple yet engaging game that demonstrates fundamental programming concepts such as object-oriented programming, collision detection, and event-driven programming. By breaking down the game into modular components (Snake, Food, Scoreboard), the code is organized, readable, and easy to maintain or extend.
 # Output1:
+![output1](https://github.com/user-attachments/assets/e3cf7f29-877b-490e-837d-6709a85920eb)
 
 # Output2: 
